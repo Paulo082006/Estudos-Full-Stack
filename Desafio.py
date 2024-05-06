@@ -5,5 +5,5 @@ def repeatedString(s, n):
     resultado = repetiao * contagem_a + s[:sobra].count("a")
     return resultado
     
-# Desafio da Hacker 14
+# Desafio da Hacker
 
