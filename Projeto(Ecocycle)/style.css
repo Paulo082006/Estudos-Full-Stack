@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #1C1C1C;
+    height: 10vh;
+    width: 100vw;
+
+}
+
+#banner {
+    width: 860px;
+    height: 260px;
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 54px;
+    border-radius: 100px;
+}
+
+main {
+    background-color: #434343;
+    height: 90vh;
+    width: 30vw;
+    display: block;
+    position: relative;
+    right: 105px;
+}
+
+#simbolo {
+    height: 1250px;
+    width: 1250px;
+    left: 440px;
+    position: relative;
+    display: inline-block;
+    top: 270px;
+}
+
+.button-main {
+    position: relative;
+    top: 600px;
+    display: block;
+    height: 176px;
+    width: 220px;
+    left: 750px;
+    background-color: #38721F;
+}
+/* Revisar o Box Shadow depois. */
+#Logar {
+    height: 176px;
+    width: 775px;
+    border-radius: 60px;
+    margin-bottom: 90px;
+    font-size: 75px;
+    box-shadow: #000 100% solid;
+    color: #fff; 
+}
+
+#Sobre-nós {
+    position: relative;
+    left: 895px;
+    width: 490px;
+    border-radius: 60px;
+    font-size: 75px;
+    color: #fff;
+    box-shadow: #000 100% solid; 
+}
+
+section {
+    position: relative;
+    background-image: url(./Assents/Background-Homepage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 71vw;
+    float: right;
+    height: 90vh;
+    bottom: 3448px;
+    filter: brightness(60%);
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    top: 840px;
+    font-size: 120px;
+    width: 1700px;
+    left: 210px;
+    filter: brightness(100%);
+    color: #000;
+    display: flow-root;
+    filter:brightness(text);
+}
+
+#h1 {
+    position: relative;
+    top: -1025px;
+}
